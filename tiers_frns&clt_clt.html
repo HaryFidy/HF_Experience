@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion des tiers</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<!-- NAV BAR -->
+		<div class="row">
+			<div id="nav" class="col-md-12">
+				<ul>
+					<li class="to_lft"><a href=""><span class="official_name">HF <span class="official_name_exp">Experience</span></span></a></li>
+					<li class="to_lft"><i class="fa fa-dropbox"></i><a href="article_appro_ach.html"> Gestion des articles</a></li>
+					<li class="to_lft"><i class="fa fa-group"></i><a href="tiers_frns&clt_clt.html"> Gestion des tiers</a></li>
+					<li class="to_rght"><i class="fa fa-sign-out"></i><a href="login.html"> Sign out</a></li>
+					<li class="to_rght"><i class="fa fa-user"></i><a href=""> My account</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- FIN NAV BAR -->
+		<!-- Espace sous Navbar -->
+		<div class="row">
+			<div id="under_navbar" class="col-md-12">
+			</div>
+		</div>
+		<!-- Fin Espace sous Navbar -->
+
+		<!-- CORPS -->
+		<div class="row">
+			<!-- Navigation à gauche -->
+			<div id="nav_left" class="col-md-2">
+				<div class="row">
+					<div id="nav_left_2" class="col-md-11">
+
+						<div class="group_a">
+							<span class="titre"> Clients et fournisseurs</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-briefcase"></i></span><a href="tiers_frns&clt_clt.html"><span class="nav_left_2_list active"> Liste des clients</span></a></li>
+								<li><span class="fa fa-li"><i class="fa fa-briefcase"></i></span><a href="tiers_frns&clt_frns.html"><span class="nav_left_2_list"> Liste des fournisseurs</span></a></li>
+							</ul>
+						</div>
+
+						<div class="group_b">
+							<span class="titre"> Banque</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-bank"></i></span><a href="tiers_bq_mvt.html"><span class="nav_left_2_list"> Mouvements bancaires</span></a></li>
+							</ul>
+						</div>
+
+						<div class="group_c">
+							<span class="titre"> Gestion des membres</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-bullhorn"></i></span><a href="tiers_members_list.html"><span class="nav_left_2_list"> Liste des membres</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Espace vide après barre verticale -->
+					<div id="after_nav_left" class="col-md-1">
+						<!-- vide -->
+					</div>
+					
+				</div>
+			</div>
+			<!-- fin navigation à gauche -->
+
+			<!-- fenêtre central -->
+			<div id="window" class="col-md-10">
+				<!-- Titre principal -->
+				<div class="row">
+					<div class="col-md-2">
+						
+					</div>
+					<div class="col-md-8">
+						<div class="wdw_ttle">
+							Liste des Clients
+						</div>
+					</div>
+				</div>
+				<!-- Fin titre principal -->
+				<!-- Contenant -->
+				<div class="row">
+					<div class="col-md-2">
+						<!-- Vide -->
+					</div>
+						
+					<div id="wdw_med" class="col-md-8">
+						<!-- Liste des clients -->
+						<div>
+							<table id="tbl_1" class="table table-striped">
+								<tr>
+									<th class="tbl_ref">Ref</th>
+									<th>Nom</th>
+									<th>Téléphone</th>
+									<th>Adresse</th>
+									<th colspan="2">Actions</th>
+								</tr>
+								<tr>
+									<td>CZITTR01</td>
+									<td>ZITAL</td>
+									<td>+261 33 12 345 67</td>
+									<td>Zone ZITAL Ankorondrano</td>
+									<td class="tbl_act_1">Update</td>
+									<td class="tbl_act_2">Delete</td>
+								</tr>
+								<tr>
+									<td>CABCTR02</td>
+									<td>ABC</td>
+									<td>+261 33 19 325 68</td>
+									<td>Ankorondrano</td>
+									<td class="tbl_act_1">Update</td>
+									<td class="tbl_act_2">Delete</td>
+								</tr>
+								<tr>
+									<td>CLUXTR03</td>
+									<td>Luxor</td>
+									<td>+261 34 29 685 60</td>
+									<td>Behoririka</td>
+									<td class="tbl_act_1">Update</td>
+									<td class="tbl_act_2">Delete</td>
+								</tr>
+								<tr>
+									<td>CCOSTR04</td>
+									<td>COSMOS</td>
+									<td>+261 32 27 085 49</td>
+									<td>Ankorondrano</td>
+									<td class="tbl_act_1">Update</td>
+									<td class="tbl_act_2">Delete</td>
+								</tr>
+								<tr>
+									<td>CPRTTR05</td>
+									<td>RAKOTO</td>
+									<td>+261 33 97 269 71</td>
+									<td>Mahamasina</td>
+									<td class="tbl_act_1">Update</td>
+									<td class="tbl_act_2">Delete</td>
+								</tr>
+							</table>
+						</div>
+						<!-- Fin liste des clients -->
+					</div>
+				</div>
+			</div>
+			<!-- Fin fenêtre central -->
+		</div>
+		<!-- FIN CORPS -->
+
+		<!-- FOOTER -->
+		<div id="foot" class="row">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
+		<!-- FIN DU FOOTER -->
+	</div>
+
+</body>
+</html>

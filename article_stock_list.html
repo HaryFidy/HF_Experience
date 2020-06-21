@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion des articles</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- NAV BAR -->
+		<div class="row">
+			<div id="nav" class="col-md-12">
+				<ul>
+					<li class="to_lft"><a href=""><span class="official_name">HF <span class="official_name_exp">Experience</span></span></a></li>
+					<li class="to_lft"><i class="fa fa-dropbox"></i><a href="article_appro_ach.html"> Gestion des articles</a></li>
+					<li class="to_lft"><i class="fa fa-group"></i><a href="tiers_frns&clt_clt.html"> Gestion des tiers</a></li>
+					<li class="to_rght"><i class="fa fa-sign-out"></i><a href="login.html"> Sign out</a></li>
+					<li class="to_rght"><i class="fa fa-user"></i><a href=""> My account</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- FIN NAV BAR -->
+		<!-- Espace sous Navbar -->
+		<div class="row">
+			<div id="under_navbar" class="col-md-12">
+			</div>
+		</div>
+		<!-- Fin Espace sous Navbar -->
+		<!-- CORPS -->
+		<div class="row">
+			<!-- Navigation à gauche -->
+			<div id="nav_left" class="col-md-2">
+				<div class="row">
+					<div id="nav_left_2" class="col-md-11">
+
+						<div class="group_a">
+							<span class="titre"> Approvisionnement</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-shopping-cart"></i></span><a href="article_appro_ach.html"><span class="nav_left_2_list"> Passer une commande</span></a></li>
+								<li><span class="fa fa-li"><i class="fa fa fa-list-alt"></i></span><a href="article_appro_list.html"><span class="nav_left_2_list"> Liste des achats</span></a></li>
+							</ul>
+						</div>
+
+						<div class="group_b">
+							<span class="titre">Stock</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-dropbox"></i></span><a href="article_stock_list.html"> <span class="nav_left_2_list active"> Liste des articles</span></a></li>
+							</ul>
+						</div>
+
+						<div class="group_c">
+							<span class="titre"> Caisse</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-money"></i></span><a href="article_caisse_list.html"><span class="nav_left_2_list"> Liste des ventes</span></a></li>
+							</ul>
+						</div>
+
+						<div class="group_d">
+							<span class="titre"> Charges</span>
+							<ul class="fa fa-ul">
+								<li><span class="fa fa-li"><i class="fa fa-calculator"></i></span><a href="article_chges_ajout.html"><span class="nav_left_2_list"> Ajouter une charge</span></a></li>
+								<li><span class="fa fa-li"><i class="fa fa fa-list-alt" ></i></span><a href="article_chges_list.html"><span class="nav_left_2_list"> Liste des charges</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Espace vide après barre verticale -->
+					<div id="after_nav_left" class="col-md-1">
+						<!-- vide -->
+					</div>
+					
+				</div>
+			</div>
+			<!-- fin navigation à gauche -->
+
+			<!-- fenêtre central -->
+			<div id="window" class="col-md-10">
+				<!-- Titre principal -->
+				<div class="row">
+					<div class="col-md-2">
+						
+					</div>
+					<div class="col-md-8">
+						<div class="wdw_ttle">
+							Liste des articles en stock
+						</div>
+					</div>
+				</div>
+				<!-- Fin titre principal -->
+				<!-- Contenant -->
+				<div class="row">
+					<div class="col-md-2">
+						<!-- Vide -->
+					</div>
+					
+					<div id="wdw_med" class="col-md-8">
+						<!-- Liste des articles en stock -->
+							<div>
+								<table id="tbl_1" class="table table-striped">
+									<tr>
+										<th class="tbl_ref">Ref</th>
+										<th>Nom du produit</th>
+										<th class="tbl_pu">PU</th>
+										<th class="tbl_qty">Qté restante</th>
+										<th colspan="2">Actions</th>
+									</tr>
+									<tr>
+										<td>MINF01</td>
+										<td>Souris</td>
+										<td>50 000</td>
+										<td>70</td>
+										<td class="tbl_act_1">Update</td>
+										<td class="tbl_act_2">Delete</td>
+									</tr>
+									<tr>
+										<td>MINF02</td>
+										<td>Cable</td>
+										<td>55 000</td>
+										<td>75</td>
+										<td class="tbl_act_1">Update</td>
+										<td class="tbl_act_2">Delete</td>
+									</tr>
+									<tr>
+										<td>MINF03</td>
+										<td>Laptop Std 01</td>
+										<td>1 000 000</td>
+										<td>10</td>
+										<td class="tbl_act_1">Update</td>
+										<td class="tbl_act_2">Delete</td>
+									</tr>
+									<tr>
+										<td>MINF04</td>
+										<td>UC Gamer 9e Gen</td>
+										<td>4 000 000</td>
+										<td>0</td>
+										<td class="tbl_act_1">Update</td>
+										<td class="tbl_act_2">Delete</td>
+									</tr>
+								</table>
+							</div>
+						<!-- Fin liste des articles en stock -->
+					</div>
+				</div>
+			</div>
+			<!-- Fin fenêtre central -->
+		</div>
+	</div>
+</body>
+</html>
